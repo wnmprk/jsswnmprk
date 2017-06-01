@@ -1,0 +1,107 @@
+body,
+html {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  letter-spacing: 6px;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 18px 24px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url("../img/background.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name {
+  padding: 60px 42px;
+  border: 12px solid white;
+}
+
+.name h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 6vw;
+  letter-spacing: 6px;
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+
+.intro a {
+  position: absolute;
+  bottom: 0;
+	padding-top: 60px;
+}
+
+.arrow {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 24px;
+	height: 24px;
+	margin-left: -12px;
+	border-left: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	box-sizing: border-box;
+  transition: top ease 0.5s;
+}
+
+.arrow:hover {
+  top: -10px;
+}
+
+section {
+  padding: 54px;
+  border-bottom: 5px black solid;
+}
+
+section h1 {
+  color: black;
+}
+
+.copyright {
+  bottom: 0;
+  float: right;
+  padding: 6px 12px;;
+  font-size: 10px;
+  letter-spacing: 6px;
+}
